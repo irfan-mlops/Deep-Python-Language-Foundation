@@ -32,3 +32,25 @@ print(type(d)) # prints the type of d
 e = {'name': 'John', 'age': 30} # dictionary
 print(type(e)) # prints the type of e
 
+f = True # boolean
+print(type(f)) # prints the type of f
+
+
+#------------------------------------------------------------------------
+
+#Indexing and Slicing
+
+a = "Hello, World!" # string
+print(a[0]) # prints the first character of a
+print(a[7:12:2]) # prints the substring from index 7 to 11
+
+#-------------------------------------------------------------------------
+#Type Conversion
+A = 5 # int
+B = str(2.5) # float
+print(str(A)) # converts int to string
+print(type(B)) # converts float to int
+
+
+#-----------------------------------------------------------------------
+
