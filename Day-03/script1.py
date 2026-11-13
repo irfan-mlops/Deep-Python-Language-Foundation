@@ -27,8 +27,11 @@
 
 # mixing variable length keyword and positional arguments
 
-# def addition (*num, **nums):
-#     print(num)
-#     print(nums)
+def addition (*num, **nums,  ):
+    print(num)
+    print(nums)
+    print(globals())
+    
 
-# print(addition(100,200,3000, n1= 100, n2=200, n3=400))
+print(addition(100,200,3000, n1= 100, n2=200, n3=400,))
+
